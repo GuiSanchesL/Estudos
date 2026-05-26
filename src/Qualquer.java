@@ -9,6 +9,7 @@ public class Qualquer {
         nomes.add("Anderson");
         nomes.add("Flávia");
         System.out.println(nomes.get(3));
+        main(String);
     }
 
     }
