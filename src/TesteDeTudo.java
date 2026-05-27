@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class UsoDoArreylist {
+public class TesteDeTudo {
     public static void main(String[] args) {
         Scanner teclado=new Scanner(System.in);
         System.out.println("Qual a Sua idade ?");
