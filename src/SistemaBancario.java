@@ -11,6 +11,7 @@ public class SistemaBancario {
             System.out.print("Quanto voçê gostaria de sacar: ?");
             int saque= teclado.nextInt();
             int resultado=saldo - saque;
+            // Usei da variavel resultado para poder ficar mais facil obter o resultado de saque do cliente
             System.out.println("Então o senhor vai ficar com o saldo de R$:"+resultado);
 
         }
