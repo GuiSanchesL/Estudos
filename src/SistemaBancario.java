@@ -10,6 +10,10 @@ public class SistemaBancario {
             System.out.println("Então o senhor " + nome + " tem R$:" + saldo + " de saldo ");
             System.out.print("Quanto voçê gostaria de sacar: ?");
             int saque= teclado.nextInt();
+            // Uso do if para que se caso do saque for maior que o saldo mostrar a mensagem "Saldo insuficiente"
+                if (saldo<saque){
+                     System.out.println("Saldo insuficiente ");
+            }
             int resultado=saldo - saque;
             // Usei da variavel resultado para poder ficar mais facil obter o resultado de saque do cliente
             System.out.println("Então o senhor vai ficar com o saldo de R$:"+resultado);
