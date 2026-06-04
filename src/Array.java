@@ -14,7 +14,7 @@ public class Array {
         // Uso do if para que se caso do saque for maior que o saldo mostrar a mensagem "Saldo insuficiente"
         if (saldo<saque){
             System.out.println("Saldo insuficiente ");
-            //Uso do else para poder para o programa caso o saque seja maior que o saldo
+            //Uso do else para poder  para o programa caso o saque seja maior que o saldo
         }else {
             int resultado = saldo - saque;
             // Usei da variavel resultado para poder ficar mais facil obter o resultado de saque do cliente
