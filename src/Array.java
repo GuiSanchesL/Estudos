@@ -20,6 +20,7 @@ public class Array {
             // Usei da variavel resultado para poder ficar mais facil obter o resultado de saque do cliente
             System.out.println("Então o senhor vai ficar com o saldo de R$:" + resultado);
         }
+        System.out.println();
 
 
         }
