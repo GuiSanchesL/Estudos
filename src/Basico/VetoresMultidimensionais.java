@@ -1,4 +1,4 @@
-import java.util.Scanner;
+package Basico;
 
 public class VetoresMultidimensionais {
     public static void main(String[] args) {
@@ -13,7 +13,7 @@ public class VetoresMultidimensionais {
         idades[1][1]=0;
         idades[1][2]=0;
 
-        //Para toda repetição, length"Serve para saber quantas pocisoes tem"
+        //Para toda repetição, Basico.length"Serve para saber quantas pocisoes tem"
         for (int i =0; i<idades.length; i++){
              for (int j = 0;j<idades[i].length;j++){
                  System.out.println(idades[i][j]);
